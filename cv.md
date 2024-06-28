@@ -4,10 +4,10 @@
 
 ## Contact information
 
-Phone: +375447577369
-E-mail: <bomberovpavel@gmail.com>
-Telegram: @Sasoriman
-Github : [Sasor1man](https://github.com/Sasor1man)
+Phone: +375447577369 <br>
+E-mail: <bomberovpavel@gmail.com><br>
+Telegram: @Sasoriman<br>
+Github : [Sasor1man](https://github.com/Sasor1man)<br>
 
 ---
 
