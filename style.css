@@ -1,0 +1,74 @@
+.main-container {
+    font-family: sans-serif;
+    font-size: 11px;
+    width: 1214px;
+}
+
+h1 {
+    font-size: 53px;
+}
+
+h2 {
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    font-size: 23px;
+}
+
+.top-backgr {
+    background: #fedec9;
+    height: 350px;
+    display: flex;
+}
+
+.top-name {
+    width: 397px;
+    height: 395px;
+    background: black;
+    margin-left: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top-name>h1 {
+    color: white;
+}
+
+.top-name>p {
+    color: white;
+    font-size: 15px;
+}
+
+.avatar {
+    width: 593px;
+    height: 440px;
+    background: green;
+    margin-left: 46px;
+    margin-top: 190px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.content-left {
+    width: 50%;
+}
+
+.info {
+    margin-top: 100px;
+}
+
+.content-right {
+    width: 50%;
+}
+
+.about-me {
+    margin-top: 300px;
+}

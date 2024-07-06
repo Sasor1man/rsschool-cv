@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://www.fontsquirrel.com/fonts/open-sans">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>RS School</title>
 </head>
+
 <body>
+    <div class="main-container">
+        <header>
+            <div class="top-backgr">
+                <div class="top-name">
+                    <h1>PAVEL <br> BOMBEROV</h1>
+                    <p>FRONT-END DEVELOPER</p>
+                </div>
+                <div class="avatar"></div>
+            </div>
+        </header>
+        <main>
+            <div class="content-left">
+                <div class="info">
+                    <h2>contact info</h2>
+                    <ul>
+                        <li>Phone: +375447577369 </li>
+                        <li>E-mail: bomberovpavel@gmail.com</li>
+                        <li>Telegram: @Sasoriman</li>
+                        <li>Github : <a href="https://github.com/Sasor1man" target="_blank">Sasor1man</a></li>
+                    </ul>
+                </div>
+                <div class="skills">
+                    <h2>skills</h2>
+                    <ul>
+                        <li>HTMl</li>
+                        <li>CSS</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+                <div class="languages">
+                    <h2>languages</h2>
+                    <ul>
+                        <li>Russian</li>
+                        <li>English</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="about-me">
+                    <h2>about me</h2>
+                    <p>I am 23 years old, working as a design engineer. Having been working for a year, i realized that
+                        this job is not for me, so i decided to change vector to programming. Started with C++, now i’m
+                        intrested in front-end and want to get job in this area.</p>
+                </div>
+                <div class="code-example">
+                    <h2>code example</h2>
+                    <pre>
+                        #include &lt;iostream&gt;
+                        #include &lt;vector&gt;
+                        #include &lt;algorithm&gt;
+                        #include &lt;utility&gt;
+                        
+                        int main()
+                        {
+                            int n;
+                            std::cin &gt;&gt; n;
+                            std::vector &lt;int&gt; arr(n);
+                            for (int i = 0; i &lt; n; i++) {
+                                std::cin &gt;&gt; arr[i];
+                            }
+                            sort(arr.begin(), arr.end());
+                            
+                            for (auto now : arr) {
+                        
+                                std::cout &lt;&lt; now &lt;&lt; " ";
+                            }
+                            
+                            return 0;
+                        }</pre>
+                </div>
+                <div class="education">
+                    <h2>education</h2>
+                    <ul>
+                        <li>
+                            Belarusian National Technical University 
+                            <ul>
+                                <li>automation of technical processes and production</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
 </body>
+
 </html>
