@@ -2,6 +2,10 @@
     font-family: sans-serif;
     font-size: 15px;
     width: 1214px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    box-shadow: 1px 25px 25px 25px rgba(0,0,0,0.49);
 }
 
 h1 {
@@ -49,23 +53,26 @@ ul {
     font-size: 15px;
 }
 
-.avatar {
+.avatar img{
     width: 300px;
     height: 300px;
-    background: green;
     margin-left: 150px;
     margin-top: 220px;
+    border: 10px white solid;
+    border-radius: 50%;
 }
 
 main {
-    position:relative;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     line-height: 30px;
+    border-bottom: black 3px solid;
+    height: 1500px;
 }
 
-main  div {
+main div {
     margin-bottom: 60px;
 }
 
@@ -73,20 +80,26 @@ main  div {
     width: 50%;
     padding: 0px 50px 0px 50px;
     position: relative;
-    top: 60px;
+    top: -200px;
 }
 
-.info {
-    
-}
 
 .content-right {
     width: 50%;
     position: relative;
-    top: 200px;
     padding-right: 170px;
 }
 
-.about-me {
-    /* margin-top: 300px; */
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img,
+#Layer_1 {
+    height: 65px;
+}
+
+footer p{
+    font-size: 25px;
 }
